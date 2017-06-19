@@ -1,0 +1,7 @@
+{
+    "/v1/*":{
+        "target": "https://www.dev.decorist.com",
+        "secure": false,
+        "logLevel": "debug"
+    }
+}

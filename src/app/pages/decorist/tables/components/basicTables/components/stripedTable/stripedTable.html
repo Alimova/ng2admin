@@ -1,0 +1,29 @@
+
+<!--<div>{{basicTablesService.smartTableData}}</div>-->
+<div class="vertical-scroll">
+  <table class="table table-striped">
+    <thead>
+    <tr>
+      <th class="table-id">#</th>
+      <th>Full Name</th>
+      <th>Short Name</th>
+      <!--<th>Username</th>-->
+      <th>URL</th>
+      <th>ID</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let item of basicTablesService.smartTableData; let i = index;">
+      <td class="table-id">{{ i }}</td>
+      <td>{{ item.full_name }}</td>
+      <td>{{ item.short_name }}</td>
+      <td>{{ item.abs_url }}</td>
+      <td>{{ item.uu_id }}</td>
+      <!--<td><a class="email-link" href="mailto:{{ item.email }}">{{ item.email }}</a></td>-->
+      <!--<td>{{ item.age }}</td>-->
+    </tr>
+    </tbody>
+  </table>
+</div>
+
+

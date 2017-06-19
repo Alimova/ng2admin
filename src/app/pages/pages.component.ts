@@ -18,12 +18,16 @@ import { PAGES_MENU } from './pages.menu';
     <footer class="al-footer clearfix">
       <div class="al-footer-right" translate>{{'general.created_with'}} <i class="ion-heart"></i></div>
       <div class="al-footer-main clearfix">
-        <div class="al-copy">&copy; <a href="http://akveo.com" translate>{{'general.akveo'}}</a> 2016</div>
         <ul class="al-share clearfix">
-          <li><i class="socicon socicon-facebook"></i></li>
-          <li><i class="socicon socicon-twitter"></i></li>
-          <li><i class="socicon socicon-google"></i></li>
-          <li><i class="socicon socicon-github"></i></li>
+          <li><a href="https://www.facebook.com/decoristhome/" target="_blank">
+            <i class="socicon socicon-facebook"></i>
+          </a></li>
+          <li><a href="https://twitter.com/decorist" target="_blank">
+          <i class="socicon socicon-twitter"></i></a></li>
+          <li><a href="https://plus.google.com/+Decorist" target="_blank">
+            <i class="socicon socicon-google"></i></a></li>
+          <li><a href="https://github.com/akveo/ng2-admin" target="_blank"
+            ><i class="socicon socicon-github"></i></a></li>
         </ul>
       </div>
     </footer>
